@@ -29,3 +29,4 @@ class NewsData(db.Model):
     title = db.Column(db.String(500))
     description = db.Column(db.String(1500))
     link = db.Cloumn(db.String(200), Unique=True)
+    # user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
