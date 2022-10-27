@@ -19,9 +19,9 @@ class User(db.Model, UserMixin):
     first_name = db.Column(db.String(100))
     last_name = db.Column(db.String(100))
 
-# Model for News Data
 
-class NewsData(db.Model)
+# Model for News Data
+class NewsData(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     category = db.Column(db.String(500))
     country = db.Column(db.String(500), Unique=True)
