@@ -56,7 +56,7 @@ def news_fetch1(cat, loc, key):
     nw_db.commit()
     nw_db.close()
 
-    print('Successfully updated NEWS database with country: ', loc, ' and category: ', cat)
+    print('Successfully updated the NEWS database with country: ', loc, ' and category: ', cat)
 
 
 def news_fetch2(cat1, cat2, loc1, loc2, key):
